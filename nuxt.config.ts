@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
   modules: ['@nuxtjs/tailwindcss'],
-  css: ['./app/assets/css/main.css'],
+  css: ['~/app/assets/css/main.css'],
   app: {
     head: {
       htmlAttrs: { lang: 'sv' },
@@ -40,7 +40,6 @@ export default defineNuxtConfig({
         '/ny-teknik/metalfach-z562-compact',
         '/ny-teknik/metalfach-z562-rightimage',
         '/ny-teknik/metalfach-z562-alternate',
-        '/ny-teknik/metalfach-udt-1000',
         '/ny-teknik/metalfach-zls-800',
         '/ny-teknik/metalfach-tytan-10',
         '/ny-teknik/metalfach-n267-2',
